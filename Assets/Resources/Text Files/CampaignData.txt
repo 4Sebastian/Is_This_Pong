@@ -1,0 +1,36 @@
+World 1:
+Node 1: OuterMap 0, InnerMap 0, Easy;
+Node 2: OuterMap 1, InnerMap 0, Easy;
+Node 3: OuterMap 2, InnerMap 1, Easy;
+Node 4: OuterMap 3, InnerMap 2, Easy;
+Node 5: OuterMap 4, InnerMap 3, Easy;
+--
+World 2:
+Node 1: OuterMap 0, InnerMap 0, Easy, Portals;
+Node 2: OuterMap 1, InnerMap 0, Easy, Portals;
+Node 3: OuterMap 2, InnerMap 2, Easy, Portals;
+Node 4: OuterMap 3, InnerMap 3, Easy, Portals;
+Node 5: OuterMap 4, InnerMap 4, Medium, Portals;
+
+--
+World 3:
+Node 1: OuterMap 0, InnerMap 0, Easy, Powers;
+Node 2: OuterMap 1, InnerMap 0, Easy, Powers;
+Node 3: OuterMap 2, InnerMap 3, Easy, Powers;
+Node 4: OuterMap 3, InnerMap 4, Medium, Powers;
+Node 5: OuterMap 4, InnerMap 5, Medium, Powers;
+--
+World 4:
+Node 1: OuterMap 1, InnerMap 0, Easy, Grav;
+Node 2: OuterMap 2, InnerMap 1, Easy, Grav;
+Node 3: OuterMap 3, InnerMap 2, Medium, Grav;
+Node 4: OuterMap 4, InnerMap 3, Medium, Grav;
+Node 5: OuterMap 5, InnerMap 4, Hard, Grav;
+--
+World 5:
+Node 1: OuterMap 1, InnerMap 1, Easy, Grav, Powers;
+Node 2: OuterMap 2, InnerMap 2, Medium, Grav, Portals;
+Node 3: OuterMap 3, InnerMap 3, Medium, Powers, Portals;
+Node 4: OuterMap 4, InnerMap 4, Hard, Grav, Powers, Portals;
+Node 5: OuterMap 5, InnerMap 5, Hard, Grav, Powers, Portals;
+--
